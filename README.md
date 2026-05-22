@@ -207,16 +207,17 @@ flowchart TD
 High-level interactions available to the system operator.
 
 ```mermaid
-usecaseDiagram
-    actor Operator
+flowchart LR
+    Operator([Operator])
     
-    rectangle "Reconciliation System" {
-        usecase "Trigger Reconciliation Run" as UC1
-        usecase "Customize Tolerances" as UC2
-        usecase "View High-Level Summary" as UC3
-        usecase "Analyze Unmatched Records" as UC4
-        usecase "Download CSV Report" as UC5
-    }
+    subgraph System [Reconciliation System]
+        direction TB
+        UC1([Trigger Reconciliation Run])
+        UC2([Customize Tolerances])
+        UC3([View High-Level Summary])
+        UC4([Analyze Unmatched Records])
+        UC5([Download CSV Report])
+    end
     
     Operator --> UC1
     Operator --> UC2
@@ -224,6 +225,6 @@ usecaseDiagram
     Operator --> UC4
     Operator --> UC5
     
-    UC1 ..> UC2 : <<extends>>
-    UC5 ..> UC1 : <<requires runId>>
+    UC1 -. extends .-> UC2
+    UC5 -. requires runId .-> UC1
 ```
