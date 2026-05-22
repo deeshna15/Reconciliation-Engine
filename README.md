@@ -15,16 +15,19 @@ An automated, Node.js-based reconciliation engine designed to ingest, normalize,
 
 ---
 
-## 📸 Media & Demos
-
-### Demo Video
-*(Add your demo video here)*
-> `![Demo Video](./media/demo-video.gif)`
+## 📸 Media
 
 ### Application Screenshots
-*(Add your screenshots here)*
-> `![API Testing](./media/api-screenshot.png)`
-> `![Database View](./media/db-screenshot.png)`
+
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/c4272ffc-23ca-4122-8575-5f0bddf16ec7" />        <img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/181e6eb3-39fa-4ee2-849e-f64a3207f695" />
+
+<img width="940" height="481" alt="image" src="https://github.com/user-attachments/assets/175735aa-4059-48e4-8a3e-d33db1e13b26" />         <img width="940" height="506" alt="image" src="https://github.com/user-attachments/assets/f8c199e9-bc1f-40e8-8543-f2a969df71aa" />
+
+<img width="940" height="421" alt="image" src="https://github.com/user-attachments/assets/ee682e0b-fe36-49e3-a5ea-c8a9dd89be11" />         <img width="940" height="478" alt="image" src="https://github.com/user-attachments/assets/911b3b40-c906-4462-9fcf-3c670f016b92" />
+
+<img width="940" height="504" alt="image" src="https://github.com/user-attachments/assets/4cd21827-0298-402d-aed2-726e30b22fb4" />        <img width="940" height="537" alt="image" src="https://github.com/user-attachments/assets/bd9a1dc2-1fa1-4a2a-b6eb-217f6fd3d42d" />
+
+<img width="940" height="536" alt="image" src="https://github.com/user-attachments/assets/70939d27-2784-4361-a40f-68e7f21660c0" />        <img width="940" height="540" alt="image" src="https://github.com/user-attachments/assets/2cdf78a2-bafd-43e5-8315-14177a5a60ea" />
 
 ---
 
