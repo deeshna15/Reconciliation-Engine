@@ -41,7 +41,7 @@ async function parseCSV(filePath, source) {
             transaction_id: data.transaction_id,
             timestamp: timestamp,
             type: data.type.toUpperCase(),
-            asset: data.asset, // We will standardize asset later in matching engine or here. Let's keep it as is.
+            asset: data.asset, 
             quantity: qty,
             price_usd: parseFloat(data.price_usd) || null,
             fee: parseFloat(data.fee) || null,
