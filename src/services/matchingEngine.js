@@ -18,7 +18,7 @@ function standardizeAsset(asset) {
 function getTypeEquivalents(source, type) {
   // If User has TRANSFER_OUT, Exchange should have TRANSFER_IN
   if (source === 'USER') {
-    if (type === 'TRANSFER_OUT') return ['TRANSFER_IN', 'TRANSFER_OUT']; // Sometimes exact matches occur?
+    if (type === 'TRANSFER_OUT') return ['TRANSFER_IN', 'TRANSFER_OUT']; 
     if (type === 'TRANSFER_IN') return ['TRANSFER_OUT', 'TRANSFER_IN'];
   } else {
     if (type === 'TRANSFER_OUT') return ['TRANSFER_IN', 'TRANSFER_OUT'];
@@ -71,7 +71,7 @@ async function runMatchingEngine(config) {
           isConflicting = false;
           break; // Found perfect match
         } else {
-          // If we find one in time but wrong qty, it's conflicting, unless we find a perfect match later
+          
           bestMatch = exTx;
           isConflicting = true;
           conflictReason = `Matched by time and type, but quantity difference (${qtyDiff}) exceeds tolerance (${maxAllowedDiff})`;
